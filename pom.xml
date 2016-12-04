@@ -19,7 +19,7 @@
 
   <groupId>io.zipkin.finagle</groupId>
   <artifactId>zipkin-finagle-parent_2.11</artifactId>
-  <version>0.3.2-SNAPSHOT</version>
+  <version>0.3.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>
@@ -46,7 +46,7 @@
     <!-- version numbers that are used more than once -->
     <scala.binary.version>2.11</scala.binary.version>
     <finagle.version>6.39.0</finagle.version>
-    <zipkin-reporter.version>0.6.6</zipkin-reporter.version>
+    <zipkin-reporter.version>0.6.9-SNAPSHOT</zipkin-reporter.version>
     <license-maven-plugin.version>2.11</license-maven-plugin.version>
   </properties>
 

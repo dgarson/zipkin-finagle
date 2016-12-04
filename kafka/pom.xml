@@ -20,7 +20,7 @@
   <parent>
     <groupId>io.zipkin.finagle</groupId>
     <artifactId>zipkin-finagle-parent_2.11</artifactId>
-    <version>0.3.2-SNAPSHOT</version>
+    <version>0.3.3-SNAPSHOT</version>
   </parent>
 
   <artifactId>zipkin-finagle-kafka_2.11</artifactId>
@@ -38,7 +38,7 @@
 
     <dependency>
       <groupId>io.zipkin.reporter</groupId>
-      <artifactId>zipkin-sender-kafka08</artifactId>
+      <artifactId>zipkin-sender-kafka010</artifactId>
       <version>${zipkin-reporter.version}</version>
     </dependency>
 
@@ -52,8 +52,8 @@
     <dependency>
       <groupId>com.github.charithe</groupId>
       <artifactId>kafka-junit</artifactId>
-      <!-- pinned to 0.8.2.2 -->
-      <version>1.7</version>
+      <!-- pinned to 0.10.0.x -->
+      <version>2.4</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
